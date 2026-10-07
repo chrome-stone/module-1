@@ -1,0 +1,7 @@
+site_name: マイ手順書サイト
+theme:
+  name: material  # 検索機能やサイドバーが美しい、世界標準の人気テーマ
+
+nav:
+  - ホーム: index.md
+  - 基本操作: manual1.md
