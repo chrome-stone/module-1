@@ -3,7 +3,7 @@ name: Deploy MkDocs to GitHub Pages
 on:
   push:
     branches: [ "main" ]  # または "main"
-    paths: [ "docs/**", "mkdocs.yml", "custom_theme/**" ]
+    paths: [ "docs/**", "mkdocs.yml" ]
   workflow_dispatch:  # 手動実行オプション
 
 permissions:
